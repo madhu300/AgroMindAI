@@ -1,0 +1,16 @@
+State,District,Crop,Season,Area,Production,Rainfall,Soil
+Tamil Nadu,Coimbatore,Rice,Kharif,1200,3500,82,Clay
+Tamil Nadu,Madurai,Cotton,Rabi,900,2100,45,Black
+Karnataka,Mysore,Wheat,Rabi,1000,2600,55,Loamy
+Punjab,Ludhiana,Wheat,Rabi,1500,5000,60,Loamy
+Maharashtra,Nagpur,Cotton,Kharif,1300,3000,48,Black
+Andhra Pradesh,Guntur,Chilli,Kharif,700,1800,65,Red
+Kerala,Thrissur,Rice,Kharif,1100,3200,90,Clay
+Gujarat,Surat,Sugarcane,Annual,1400,6000,75,Black
+Rajasthan,Jaipur,Bajra,Kharif,1000,2400,35,Sandy
+Uttar Pradesh,Kanpur,Wheat,Rabi,1600,5200,58,Loamy
+Tamil Nadu,Salem,Tomato,Summer,600,1700,70,Red
+Karnataka,Belagavi,Maize,Kharif,950,2800,68,Loamy
+Punjab,Amritsar,Rice,Kharif,1450,4800,72,Clay
+Maharashtra,Nashik,Onion,Rabi,800,2600,50,Black
+Andhra Pradesh,Nellore,Rice,Kharif,1250,3900,85,Clay

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>AgroMind AI</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background:#f2f2f2;
+        }
+
+        .container{
+            width:500px;
+            margin:50px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        input, select{
+            width:100%;
+            padding:12px;
+            margin-top:10px;
+            border-radius:8px;
+            border:1px solid #ccc;
+            font-size:16px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:15px;
+            border:none;
+            border-radius:8px;
+            background:#2e8b57;
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            background:#256f46;
+        }
+
+        .report{
+            background:#f8f8f8;
+            padding:20px;
+            border-radius:10px;
+            margin-top:20px;
+            line-height:1.8;
+            white-space:pre-line;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AgroMind AI</h1>
+
+        <form method="POST">
+
+            <label>Rainfall:</label>
+            <input type="number" name="rainfall" required>
+
+            <label>Soil Type:</label>
+            <select name="soil">
+                <option>Clay</option>
+                <option>Black</option>
+                <option>Loamy</option>
+                <option>Red</option>
+                <option>Sandy</option>
+            </select>
+
+            <button type="submit">Analyze</button>
+
+            <br><br>
+            <a href="/dashboard">
+                <button type="button">Open Dashboard</button>
+            </a>
+
+        </form>
+
+        <h2>{{ crop }}</h2>
+        <h3>{{ weather_advice }}</h3>
+        <h3>{{ market_info }}</h3>
+        <h3>{{ yield_prediction }}</h3>
+        <h3>{{ disease_risk }}</h3>
+        <h2>Master AI Report</h2>
+        <div class="report">
+            {{ final_report }}
+        </div>
+
+    </div>
+
+</body>
+</html>
